@@ -518,7 +518,7 @@ h3 {
   }
   
   .categ-box {
-    width: 92vw;
+    width: 93vw;
     height:150vw;
     display: flex;
     flex-direction: column;
@@ -599,7 +599,7 @@ h3 {
  
   }
   .Question-box {
-    width: 90vw;
+    width: 93vw;
     height: 500px;
    
   }
@@ -619,7 +619,7 @@ h3 {
     font-size: 14px;
   }
   fieldset {
-    width: 272px;
+    width: 280px;
     height: 170px;
     font-size: 10px;
   }
@@ -632,7 +632,7 @@ h3 {
     height: 25px;
     text-align: center;
     font-size: 12px;
-    width:280px;
+    width:285px;
     margin: 3px;
      
   }
@@ -644,7 +644,7 @@ h3 {
      
   }
   .next-button {
-  margin-left:80px;
+  margin-left:100px;
       
   }
   .result-box {

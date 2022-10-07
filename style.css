@@ -521,7 +521,7 @@ h3 {
 } */
   .categ-box {
     width: 90vw;
-    height:140vw;
+    height:150vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -600,7 +600,7 @@ h3 {
  
   }
   .Question-box {
-    width: 90vw;
+    width: 95vw;
     height: 500px;
    
   }
@@ -621,7 +621,7 @@ h3 {
   }
   fieldset {
     width: 270px;
-    height: 160px;
+    height: 170px;
     font-size: 10px;
   }
   .question {
@@ -633,7 +633,7 @@ h3 {
     height: 25px;
     text-align: center;
     font-size: 12px;
-    width: 250px;
+    width: 260px;
     margin: 3px;
      
   }
@@ -671,13 +671,23 @@ h3 {
     font-size: 13px;
   }
   .buttons button {
-    width: 90px;
-    height: 30px;
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
   }
   .buttons {
-    margin: 55px;
+    margin:30px;
+    
   }
-  
+  .buttons button:hover {
+    box-shadow: 10px 10px 25px #1b1b1c;
+    background-color: rgb(70, 42, 192);
+    color: white;
+    width: 120px;
+    font-size: 12px;
+    height: 30px;
+    border-radius: 50px;
+  }
 } ;
 
 

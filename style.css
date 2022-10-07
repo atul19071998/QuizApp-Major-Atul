@@ -299,7 +299,7 @@ h1 {
   opacity: 0;
   pointer-events: none;
   transform: translate(-50%, -50%) scale(0.9);
-  width: 60vw;
+  width: 80vw;
   height: auto;
   border: 1px solid white;
   padding: 30px;
@@ -599,7 +599,7 @@ h3 {
  
   }
   .Question-box {
-    width: 95vw;
+    width: 90vw;
     height: 500px;
    
   }
@@ -619,7 +619,7 @@ h3 {
     font-size: 14px;
   }
   fieldset {
-    width: 270px;
+    width: 275px;
     height: 170px;
     font-size: 10px;
   }
@@ -632,7 +632,7 @@ h3 {
     height: 25px;
     text-align: center;
     font-size: 12px;
-    width: 260px;
+    width:280px;
     margin: 3px;
      
   }
@@ -644,8 +644,7 @@ h3 {
      
   }
   .next-button {
-      margin-left:80px;
-      
+  margin-left:80px;
       
   }
   .result-box {

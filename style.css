@@ -1,100 +1,101 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 /* styling starts here */
 /* default margin and padding */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Times New Roman', Times, serif;
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
 :root {
-  --textbook_color:#0ad0f4;
+  --textbook_color: #0ad0f4;
 }
 /* background image styling */
-body{
+body {
   background-image: url("gv.jpg");
-  background-size:cover;
+  background-size: cover;
+  height:100vh;
+  background-repeat: no-repeat;
 }
 /* for centring all the div in webpage */
 .categ-box,
 .inform-box,
 .Question-box,
-.result-box{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
+.result-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* styling visible to particular button */
 .inform-box.activeinform,
 .categ-box.activeinfo,
 .Question-box.activeQuiz,
-.result-box.activeResult{
-    z-index: 5;
-    opacity: 1;
-    pointer-events: auto;
-    transform: translate(-50%, -50%) scale(1);
+.result-box.activeResult {
+  z-index: 5;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
 }
- 
-.categ-box.none{
+
+.categ-box.none {
   display: none;
 }
 /* information box starts here */
-.inform-box{
-    width:550px;
-    height:340px;
-    border:px solid black;
-    border-radius :10px;
-    transition:all 0.5 ease;
-    background-color: white;
-    box-shadow: 5px 5px 18px #d3ebf7;
+.inform-box {
+  width: 550px;
+  height: 340px;
+  border: px solid black;
+  border-radius: 10px;
+  transition: all 0.5 ease;
+  background-color: white;
+  box-shadow: 5px 5px 18px #d3ebf7;
 }
 /* styling heading and rules section */
-.heading h2{
-    padding: 10px;
-    text-align: center;
-    color: darkorchid;
-    font-size: 30px;
-    border-bottom: 1px solid rgb(12, 12, 12);
-  }
-  .rules{
-      margin:10px 0px;
-      width:100%;
-      padding:20px;
-      font-size: 18px;
-      font-family:'Times New Roman', Times, serif;
-  }
-  .rules span{
-    color: blue;
-    font-weight: 600;
-    border-color: transparent;
-  }
-  .btn{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    border-top: 1px  solid rgb(5, 5, 5);
-  }
-  .btn button {
-    padding: 6px 10px;
-    border-radius: 15px;
-    border:2px solid rgb(9, 108, 238);
-    margin-top: 20px;
-  }
-  .btn button:hover{
-    box-shadow: 10px 10px 25px #28a9d8;
+.heading h2 {
+  padding: 10px;
+  text-align: center;
+  color: darkorchid;
+  font-size: 30px;
+  border-bottom: 1px solid rgb(12, 12, 12);
+}
+.rules {
+  margin: 10px 0px;
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+.rules span {
+  color: blue;
+  font-weight: 600;
+  border-color: transparent;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-top: 1px solid rgb(5, 5, 5);
+}
+.btn button {
+  padding: 6px 10px;
+  border-radius: 15px;
+  border: 2px solid rgb(9, 108, 238);
+  margin-top: 20px;
+}
+.btn button:hover {
+  box-shadow: 10px 10px 25px #28a9d8;
   background-color: rgb(138, 123, 205);
-  color:white;
+  color: white;
   width: 120px;
   font-size: 20px;
-  height:40px;
+  height: 40px;
   border-radius: 50px;
-  }
-  /* information-box ends here */
+}
+/* information-box ends here */
 /* category-box  starts  here */
-.categ-box{
-  opacity:0; 
+.categ-box {
+  opacity: 0;
   pointer-events: none;
   background-color: white;
   border-radius: 10px;
@@ -110,7 +111,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid #ccc;
+  /* border: 2px solid #ccc; */
   border-radius: 6px;
   padding: 40px;
 }
@@ -123,7 +124,7 @@ body{
   align-items: center;
   padding: 0;
 }
- .user_info {
+.user_info {
   height: 30%;
   width: 100%;
   display: flex;
@@ -136,21 +137,21 @@ body{
 .user_info > * {
   margin-bottom: 15px;
 }
-#displayname{
+#displayname {
   text-align: center;
   font-size: 20px;
   font-weight: 500;
-  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1{
+h1 {
   text-align: center;
 }
-h5{
+h5 {
   font-size: 20px;
   font-weight: 200;
   margin-top: 10px;
 }
-p{
+p {
   font-size: 20px;
   margin-top: 5px;
 }
@@ -204,7 +205,7 @@ p{
 .user_form > p {
   color: #777;
 }
- .categories_info {
+.categories_info {
   width: 100%;
   height: 70%;
   display: flex;
@@ -212,8 +213,8 @@ p{
   justify-content: center;
   align-items: center;
 }
- 
-.categories_info .categories {
+
+/* .categories_info .categories {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -221,269 +222,445 @@ p{
   align-items: center;
   margin-top: 20px;
 }
+  */
+.categories_info .categories {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
 .categories > span {
-  height: 40px;
-  width: 45%;
   margin: 5px;
+  padding: 5px;
   border-radius: 10px;
   background-color: #564753;
   color: white;
-   font-size: 20px;
+  font-size: 20px;
   border: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
 }
-.categories > span:hover{
+.categories > span:hover {
   box-shadow: 10px 10px 25px #1b1b1c;
   background-color: rgb(76, 43, 222);
   border: transparent;
-  color:white;
+  color: white;
   width: 300px;
   font-size: 20px;
-  height:40px;
+  height: 40px;
   border-radius: 50px;
-  }
-  #reset_category{
+}
+#reset_category {
   height: 40px;
   width: 25%;
   margin: 5px;
   border-radius: 25px;
   background-color: #5319da;
   color: white;
-   font-size: 20px;
+  font-size: 20px;
   border: 2px solid rgb(5, 6, 6);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-
-  }
-  #reset_category:hover{
+}
+#reset_category:hover {
   box-shadow: 10px 10px 25px #1b1b1c;
   background-color: rgb(214, 9, 26);
   border: transparent;
-  color:white;
+  color: white;
   width: 250px;
   font-size: 20px;
-  height:40px;
+  height: 40px;
   border-radius: 50px;
-  }
-  /* styling to heading */
+}
+/* styling to heading */
 h1 {
   color: var(--textbook_color);
 }
 /* categroy styles ends  here */
 
-  /* question style starts here */
-  .Question-box{
-    /* display:none; */
-     opacity:0;
-     pointer-events: none;
-     transform: translate(-50%, -50%) scale(0.9);
-     width:60vw;
-     height:auto;
-     border: 1px solid white;
-     padding:30px;
-     border-radius: 20px;
-     background-color: white;
-     box-shadow: 5px 5px 18px #d3ebf7;
-  }
-  /* styling to timer */
-  #timer{
-    border: 1px solid rgb(235, 27, 27);
-    border-radius: 50px;
-    padding: 10px;
-  }
-  /* styling to score */
-  #score{
-    border: 1px solid rgb(6, 135, 25);
-    border-radius: 25px;
-    padding: 10px;
+/* question style starts here */
+.Question-box {
+  /* display:none; */
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.9);
+  width: 60vw;
+  height: auto;
+  border: 1px solid white;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 18px #d3ebf7;
+}
+/* styling to timer */
+#timer {
+  border: 1px solid rgb(235, 27, 27);
+  border-radius: 50px;
+  padding: 10px;
+}
+/* styling to score */
+#score {
+  border: 1px solid rgb(6, 135, 25);
+  border-radius: 25px;
+  padding: 10px;
+}
+/* styling to title */
+.Question-box .title-bar {
+  font-size: 30px;
+  color: #6a16a2;
+  font-weight: 800;
+}
 
-  }
-  /* styling to title */
-  .Question-box .title-bar{
-    font-size: 30px;
-    color: #6a16a2;
-    font-weight: 800;
-  }
-  
-  /* .display{
+/* .display{
     display: none;
   } */
-  /* styling to question */
-  fieldset legend {
-    border: 1px solid rgb(114, 50, 148);
-    border-radius: 50px;
-    padding: 10px;
-  }
-  fieldset {
-    padding: 10px;
-    border-radius: 7px;
-    text-align: center;
-    border: 1px solid rgb(132, 55, 174);
-  }
-  /* styling to .next-button */
-  .next-button{
-    padding: 10px;
-    width:50px;
-    justify-content: center;
-    text-align: center;
-    margin-left: 280px;
-
-  }
-  .next-button .btn{
-    display:none;
-    width: 150px;
-    height:50px;
-    border: 3px solid rgb(95, 10, 175);
-    color:rgb(134, 8, 169);
-    border-radius: 50px;
-    margin-top: 10px;
-    padding: 5px;
-    font-size: 25px;
-    box-shadow: 10px 10px 25px #323334;
-
-    
-  }
-  
-  .next-button .btn:hover{
+/* styling to question */
+fieldset legend {
+  border: 1px solid rgb(114, 50, 148);
+  border-radius: 50px;
+  padding: 10px;
+}
+fieldset {
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+  border: 1px solid rgb(132, 55, 174);
+}
+/* styling to .next-button */
+.next-button {
+  padding: 10px;
+  width: 50px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 280px;
+}
+.next-button .btn {
+  display: none;
+  width: 150px;
+  height: 50px;
+  border: 3px solid rgb(95, 10, 175);
+  color: rgb(134, 8, 169);
+  border-radius: 50px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 25px;
   box-shadow: 10px 10px 25px #323334;
-  border:3px solid rgb(2, 69, 81);
-  color:rgb(5, 63, 99);
+}
+
+.next-button .btn:hover {
+  box-shadow: 10px 10px 25px #323334;
+  border: 3px solid rgb(2, 69, 81);
+  color: rgb(5, 63, 99);
   width: 160px;
   font-size: 20px;
-  height:50px;
+  height: 50px;
   border-radius: 50px;
-    
-  }
-  /* styling to question */
-  .question{
-    font-size:20px;
-    padding:15px;
-    border: none;
-   
-  }
-  .question span{
-    border: none;
-  }
+}
+/* styling to question */
+.question {
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+}
+.question span {
+  border: none;
+}
 /* styling to answer */
-  .answer-options{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-   justify-content: space-evenly;
-   font-size: 5px;
-   margin-top: 10px;
-  }
-  .answer-options .option{
-     background-color:rgb(183, 181, 181);
-     border:transparent;
-     width: 300px;
-     height:40px;
-     margin: 20px;
-     text-align: center;
-     border-radius: 50px;
-     font-size: 25px;
-     padding: 5px;
-  }
-  /* styles if answer incorrect shows red color */
-  .option.incorrect {
-    color:rgb(252, 255, 252);
-    background:rgb(234, 0, 19);
-    border-color: red;
-  }
-    /* styles if answer correct shows green color */
-  .option.correct {
-    color:rgb(245, 235, 235);
-    background:rgb(70, 242, 7);
-    border-color:green;
-    
-  }
-  .option.disabled{
-    pointer-events: none;
-  }
-  .title-bar{
-    font-size: 20px;
-    text-align: center;
-  }
-  .score-timer{
-    display: flex;
-    justify-content: space-between;
-    font-size: 25px;
-    margin-top: 5px;
-  }
-  .question{
-    padding:10px;
-  }
-  /* question box ends here */
-  /* result-box starts here */
-  .result-box{
-    opacity:0;
-     pointer-events: none;
-     transform: translate(-50%, -50%) scale(0.9);
-     width:40vw;
-     height:90vh;
-     border: 1px solid rgb(252, 249, 249);
-     padding:50px;
-     border-radius:10px;
-     background-color: white;
-     box-shadow: 5px 5px 18px #d3ebf7;
+.answer-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  font-size: 5px;
+  margin-top: 10px;
+}
+.answer-options .option {
+  background-color: rgb(183, 181, 181);
+  border: transparent;
+  width: 300px;
+  height: 40px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 25px;
+  padding: 5px;
+}
+/* styles if answer incorrect shows red color */
+.option.incorrect {
+  color: rgb(252, 255, 252);
+  background: rgb(234, 0, 19);
+  border-color: red;
+}
+/* styles if answer correct shows green color */
+.option.correct {
+  color: rgb(245, 235, 235);
+  background: rgb(70, 242, 7);
+  border-color: green;
+}
+.option.disabled {
+  pointer-events: none;
+}
+.title-bar {
+  font-size: 20px;
+  text-align: center;
+}
+.score-timer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  margin-top: 5px;
+}
+.question {
+  padding: 10px;
+}
+/* question box ends here */
+/* result-box starts here */
+.result-box {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.9);
+  width: 40vw;
+  height: 90vh;
+  border: 1px solid rgb(252, 249, 249);
+  padding: 50px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 18px #d3ebf7;
+}
+/* style to heading tag */
+h3 {
+  text-align: center;
+  font-size: 1.7em;
+  padding: 10px;
+  color: rgb(154, 51, 192);
+}
+/* styling to all the result box class */
+.result-box,
+.name-result,
+.time-taken,
+.attempts,
+.correct,
+.wrong,
+.Percentage {
+  font-size: 18px;
 
+  margin-top: 15px;
+  text-align: center;
+}
+
+/*styles to button */
+.buttons {
+  margin: 100px;
+}
+.buttons button {
+  padding: 5px 10px;
+  width: 120px;
+  height: 40px;
+  color: white;
+  border-radius: 25px;
+  background-color: rgb(225, 49, 49);
+  border: transparent;
+}
+/* styles button on hover */
+.buttons button:hover {
+  box-shadow: 10px 10px 25px #1b1b1c;
+  background-color: rgb(70, 42, 192);
+  color: white;
+  width: 120px;
+  font-size: 15px;
+  height: 40px;
+  border-radius: 50px;
+}
+/* styling to awards icon */
+.tu {
+  width: 80px;
+  height: 40x;
+  background-color: white;
+}
+/* styling ends here */
+
+@media only screen and (max-width: 600px) {
+  /* body{
+    background:#24b8d2;
+     
+  
+} */
+  .inform-box {
+    width: 330px;
+    height: auto;
   }
-  /* style to heading tag */
-  h3{
-    text-align: center;
-    font-size: 1.7em;
+  .heading h2 {
+    font-size: 23px;
     padding: 10px;
-    color: rgb(154, 51, 192);
-
   }
-  /* styling to all the result box class */
+  .rules span {
+    font-size: 18px;
+  }
+  .rules p {
+    font-size: 16px;
+    margin: 0px;
+  }
+
+  .btn {
+    padding-top: 5px;
+  }
+  /* .inform-box{
+  display: none;
+} */
+  .categ-box {
+    width: 350px;
+    border: none;
+  }
+  .user_registration img {
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+  }
+  .user_registration h1 {
+    font-size: 18px;
+    margin-left: 40px;
+  }
+  .user_registration h5 {
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 40px;
+    text-align: center;
+  }
+  .user_info .input_group {
+    width: 250px;
+    margin-left: 50px;
+  }
+  .user_info .input_group input {
+    font-size: 10px;
+    padding: 8px;
+    border-color: black;
+  }
+  .input_group > button {
+    width: 50px;
+    height: 30px;
+    font-size: 10px;
+    color: black;
+  }
+  #displayname {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  h4{
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .categories_info .categories {
+    grid-template-columns: 1fr;
+  }
+  .categories > span {
+    font-size: 14px;
+    color: black;
+    border-color: rgb(14, 127, 172);
+    background: white;
+    padding: 5px;
+    margin-left: 40px;
+  }
+  .answer-options {
+    grid-template-columns: 1fr;
+  }
+  .categories_info h1 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+    color: #24b8d2;
+  }
+  #reset_category {
+    width: 30%;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 8px;
+    background-color: rgb(115, 182, 245);
+    color: rgb(240, 243, 248);
+    border-color: #0b79e8;
+    border-radius: 10px;
+    margin-left: 50px;
+  }
+  .Question-box {
+    width: 60vw;
+    height: 540px;
+  }
+  .Question-box .title-bar {
+    font-size: 20px;
+    color: #6a16a2;
+    padding: 10px;
+    border-bottom: 2px solid grey;
+  }
+  #timer {
+    border: 1px solid rgb(235, 27, 27);
+    border-radius: 25px;
+    font-size: 13px;
+  }
+  #score {
+    border-radius: 25px;
+    font-size: 14px;
+  }
+  fieldset {
+    width: 300px;
+    height: 170px;
+    font-size: 10px;
+  }
+  .question {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .answer-options .option {
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    width: 250px;
+    margin: 5px;
+    margin-left: 25px;
+  }
+  .next-button .btn {
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .next-button {
+    margin-left: 100px;
+  }
+  .result-box {
+    width: 60vw;
+    height: auto;
+  }
+  h3 {
+    font-size: 18px;
+    padding: 5px;
+  }
+  .tu {
+    width: 50px;
+    height: 60px;
+  }
   .result-box,
   .name-result,
   .time-taken,
   .attempts,
   .correct,
   .wrong,
-  .Percentage{
-    font-size: 18px;
-     
-    margin-top: 15px;
-    text-align: center;
-
-  }
-
-  /*styles to button */
-  .buttons{
-    margin:100px;
-    
+  .Percentage {
+    font-size: 15px;
   }
   .buttons button {
-    padding: 5px 10px;
-    width: 120px;
-    height:40px;
-    color:white;
-    border-radius: 25px;
-    background-color:rgb(225, 49, 49);
-    border:transparent;
-   
+    width: 90px;
+    height: 30px;
   }
-  /* styles button on hover */
-  .buttons button:hover{
-    box-shadow: 10px 10px 25px #1b1b1c;
-  background-color: rgb(70, 42, 192);
-  color:white;
-  width: 120px;
-  font-size: 15px;
-  height:40px;
-  border-radius: 50px;
+  .buttons {
+    margin: 55px;
   }
-  /* styling to awards icon */
-   .tu{
-  width: 80px;
-  height: 40x;
-  background-color:white
-}
-  /* styling ends here */
+  
+} ;

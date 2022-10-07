@@ -299,7 +299,7 @@ h1 {
   opacity: 0;
   pointer-events: none;
   transform: translate(-50%, -50%) scale(0.9);
-  width: 80vw;
+  width: 60vw;
   height: auto;
   border: 1px solid white;
   padding: 30px;
@@ -646,7 +646,7 @@ h3 {
      
   }
   .next-button {
-  margin-left:90px;
+  margin-left:80px;
       
   }
   .result-box {
@@ -680,10 +680,10 @@ h3 {
     
   }
   
-.next-button .btn{
+/* .next-button .btn{
  display:none;
 
-}
+} */
   .buttons button:hover {
     box-shadow: 10px 10px 25px #1b1b1c;
     background-color: rgb(70, 42, 192);

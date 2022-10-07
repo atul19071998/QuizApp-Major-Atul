@@ -677,6 +677,14 @@ h3 {
     margin:30px;
     
   }
+  
+/* .next-button .btn{
+  width: 130px;
+  font-size: 15px;
+  height: 40px;
+  border-radius: 50px;
+
+} */
   .buttons button:hover {
     box-shadow: 10px 10px 25px #1b1b1c;
     background-color: rgb(70, 42, 192);

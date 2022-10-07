@@ -151,6 +151,13 @@ h5 {
   font-size: 20px;
   font-weight: 200;
   margin-top: 10px;
+  
+}
+h6{
+  font-size: 25px;
+  font-weight: 800;
+  margin-top:10px;
+  color:rgb(235, 235, 17);
 }
 p {
   font-size: 20px;
@@ -485,15 +492,8 @@ h3 {
   background-color: white;
 }
 /* styling ends here */
-/* @media only screen and (max-width: 400px){
-  .categ-box{
-    width:100vw;
-  }
-  .Question-box{
-    width:100vw;
-  }
-  } */
-
+ 
+/* media query for mobile device view */
 @media only screen and (max-width: 400px) {
  
  
@@ -686,6 +686,11 @@ h3 {
     font-size: 12px;
     height: 30px;
     border-radius: 50px;
+  }
+  h6{
+    font-size: 15px;
+    font-weight:800;
+    color:rgb(235, 235, 17);
   }
 } ;
 

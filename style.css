@@ -391,7 +391,7 @@ fieldset {
 .answer-options .option {
   background-color: rgb(183, 181, 181);
   border: transparent;
-  width: 300px;
+  width: 310px;
   height: 40px;
   margin: 20px;
   text-align: center;
@@ -524,6 +524,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     border: none;
+
   }
   .user_registration img {
     width: 50px;
@@ -531,7 +532,8 @@ h3 {
    
   }
   .user_registration h1 {
-    font-size: 15px;
+    font-size: 16px;
+     
      
   }
   .user_registration h5 {
@@ -542,18 +544,18 @@ h3 {
   
   }
   .user_info .input_group {
-    width: 200px;
-    height:25px;
+    width: 220px;
+    height:30px;
      
   }
   .user_info .input_group input {
-    font-size: 9px;
+    font-size: 10px;
     padding: 8px;
     border-color: black;
   }
   .input_group > button {
     width: 50px;
-    height: 25px;
+    height: 30px;
     font-size: 10px;
     color: black;
   }
@@ -562,7 +564,7 @@ h3 {
     
   }
    h4{
-    font-size:9px;
+    font-size:10px;
     font-family: sans-serif;
     text-align: center;
    
@@ -582,7 +584,7 @@ h3 {
     grid-template-columns: 1fr;
   }
   .categories_info h1 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bolder;
     color: #0ca1bc;
   }
@@ -644,7 +646,7 @@ h3 {
      
   }
   .next-button {
-  margin-left:100px;
+  margin-left:90px;
       
   }
   .result-box {
@@ -678,13 +680,10 @@ h3 {
     
   }
   
-/* .next-button .btn{
-  width: 130px;
-  font-size: 15px;
-  height: 40px;
-  border-radius: 50px;
+.next-button .btn{
+ display:none;
 
-} */
+}
   .buttons button:hover {
     box-shadow: 10px 10px 25px #1b1b1c;
     background-color: rgb(70, 42, 192);

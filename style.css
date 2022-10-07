@@ -96,6 +96,7 @@ body {
 /* category-box  starts  here */
 .categ-box {
   opacity: 0;
+  width:50vw;
   pointer-events: none;
   background-color: white;
   border-radius: 10px;
@@ -484,13 +485,18 @@ h3 {
   background-color: white;
 }
 /* styling ends here */
+/* @media only screen and (max-width: 400px){
+  .categ-box{
+    width:100vw;
+  }
+  .Question-box{
+    width:100vw;
+  }
+  } */
 
-@media only screen and (max-width: 600px) {
-  /* body{
-    background:#24b8d2;
-     
-  
-} */
+@media only screen and (max-width: 400px) {
+ 
+ 
   .inform-box {
     width: 330px;
     height: auto;
@@ -500,21 +506,22 @@ h3 {
     padding: 10px;
   }
   .rules span {
-    font-size: 18px;
+    font-size: 14px;
   }
   .rules p {
-    font-size: 16px;
+    font-size: 15px;
     margin: 0px;
   }
 
   .btn {
-    padding-top: 5px;
+  width:80vw;
   }
   /* .inform-box{
   display: none;
 } */
   .categ-box {
-    width: 60vw;
+    width: 90vw;
+    height:140vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -526,26 +533,29 @@ h3 {
    
   }
   .user_registration h1 {
-    font-size: 18px;
+    font-size: 15px;
      
   }
   .user_registration h5 {
-    font-size: 14px;
-    font-weight: bolder;
+    font-size: 12px;
     text-align: center;
+    font-weight: bolder;
+     
+  
   }
   .user_info .input_group {
-    width: 250px;
+    width: 200px;
+    height:25px;
      
   }
   .user_info .input_group input {
-    font-size: 10px;
+    font-size: 9px;
     padding: 8px;
     border-color: black;
   }
   .input_group > button {
     width: 50px;
-    height: 30px;
+    height: 25px;
     font-size: 10px;
     color: black;
   }
@@ -553,12 +563,11 @@ h3 {
     font-size: 15px;
     
   }
-  h4{
-    font-size: 14px;
-    font-weight: bolder;
+   h4{
+    font-size:10px;
     text-align: center;
-  
-  }
+   
+   }
   .categories_info .categories {
     grid-template-columns: 1fr;
   }
@@ -568,22 +577,21 @@ h3 {
     border-color: rgb(14, 127, 172);
     background: white;
     padding: 5px;
-    width:50vw;
+    width:60vw;
   }
   .answer-options {
     grid-template-columns: 1fr;
   }
   .categories_info h1 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bolder;
-    margin-top: 10px;
     color: #24b8d2;
   }
   
   #reset_category {
-    width: 30%;
+    width: 50%;
     height: 30px;
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 8px;
     background-color: rgb(115, 182, 245);
     color: rgb(240, 243, 248);
@@ -592,8 +600,9 @@ h3 {
  
   }
   .Question-box {
-    width: 60vw;
-    height: 540px;
+    width: 90vw;
+    height: 500px;
+   
   }
   .Question-box .title-bar {
     font-size: 20px;
@@ -611,35 +620,38 @@ h3 {
     font-size: 14px;
   }
   fieldset {
-    width: 300px;
-    height: 170px;
+    width: 270px;
+    height: 160px;
     font-size: 10px;
   }
   .question {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     text-align: center;
   }
   .answer-options .option {
-    height: 30px;
+    height: 25px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     width: 250px;
-    margin: 5px;
-    margin-left: 25px;
+    margin: 3px;
+     
   }
   .next-button .btn {
     width: 80px;
     height: 30px;
-    font-size: 15px;
+    font-size: 14px;
     padding: 5px;
+     
   }
   .next-button {
-    margin-left: 100px;
+      margin-left:80px;
+      
+      
   }
   .result-box {
-    width: 60vw;
-    height: auto;
+    width: 90vw;
+    height: 70vh;
   }
   h3 {
     font-size: 18px;
@@ -656,7 +668,7 @@ h3 {
   .correct,
   .wrong,
   .Percentage {
-    font-size: 15px;
+    font-size: 13px;
   }
   .buttons button {
     width: 90px;
@@ -667,3 +679,6 @@ h3 {
   }
   
 } ;
+
+
+ 

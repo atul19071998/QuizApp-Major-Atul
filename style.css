@@ -514,27 +514,29 @@ h3 {
   display: none;
 } */
   .categ-box {
-    width: 350px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: none;
   }
   .user_registration img {
     width: 50px;
     height: 50px;
-    margin-left: 40px;
+   
   }
   .user_registration h1 {
     font-size: 18px;
-    margin-left: 40px;
+     
   }
   .user_registration h5 {
     font-size: 14px;
     font-weight: bolder;
-    margin-left: 40px;
     text-align: center;
   }
   .user_info .input_group {
     width: 250px;
-    margin-left: 50px;
+     
   }
   .user_info .input_group input {
     font-size: 10px;
@@ -549,13 +551,13 @@ h3 {
   }
   #displayname {
     font-size: 15px;
-    margin-left: 20px;
+    
   }
   h4{
     font-size: 14px;
     font-weight: bolder;
     text-align: center;
-    margin-left: 20px;
+  
   }
   .categories_info .categories {
     grid-template-columns: 1fr;
@@ -566,7 +568,7 @@ h3 {
     border-color: rgb(14, 127, 172);
     background: white;
     padding: 5px;
-    margin-left: 40px;
+    width:50vw;
   }
   .answer-options {
     grid-template-columns: 1fr;
@@ -577,6 +579,7 @@ h3 {
     margin-top: 10px;
     color: #24b8d2;
   }
+  
   #reset_category {
     width: 30%;
     height: 30px;
@@ -586,7 +589,7 @@ h3 {
     color: rgb(240, 243, 248);
     border-color: #0b79e8;
     border-radius: 10px;
-    margin-left: 50px;
+ 
   }
   .Question-box {
     width: 60vw;

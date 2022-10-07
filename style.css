@@ -516,9 +516,7 @@ h3 {
   .btn {
   width:80vw;
   }
-  /* .inform-box{
-  display: none;
-} */
+  
   .categ-box {
     width: 90vw;
     height:150vw;
@@ -537,7 +535,7 @@ h3 {
      
   }
   .user_registration h5 {
-    font-size: 5px;
+    font-size: 10px;
     text-align: center;
     font-weight: bolder;
      
@@ -564,7 +562,8 @@ h3 {
     
   }
    h4{
-    font-size:5px;
+    font-size:9px;
+    font-family: sans-serif;
     text-align: center;
    
    }
@@ -583,16 +582,16 @@ h3 {
     grid-template-columns: 1fr;
   }
   .categories_info h1 {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bolder;
-    color: #24b8d2;
+    color: #0ca1bc;
   }
    
   #reset_category {
     width: 50%;
     height: 30px;
     font-size: 12px;
-    margin-top: 8px;
+    /* margin-top: 8px; */
     background-color: rgb(115, 182, 245);
     color: rgb(240, 243, 248);
     border-color: #0b79e8;
@@ -605,7 +604,7 @@ h3 {
    
   }
   .Question-box .title-bar {
-    font-size: 20px;
+    font-size: 15px;
     color: #6a16a2;
     padding: 10px;
     border-bottom: 2px solid grey;

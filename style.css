@@ -537,7 +537,7 @@ h3 {
      
   }
   .user_registration h5 {
-    font-size: 12px;
+    font-size: 5px;
     text-align: center;
     font-weight: bolder;
      
@@ -564,7 +564,7 @@ h3 {
     
   }
    h4{
-    font-size:10px;
+    font-size:5px;
     text-align: center;
    
    }
@@ -583,11 +583,11 @@ h3 {
     grid-template-columns: 1fr;
   }
   .categories_info h1 {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bolder;
     color: #24b8d2;
   }
-  
+   
   #reset_category {
     width: 50%;
     height: 30px;

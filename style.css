@@ -518,7 +518,7 @@ h3 {
   }
   
   .categ-box {
-    width: 90vw;
+    width: 92vw;
     height:150vw;
     display: flex;
     flex-direction: column;
@@ -619,7 +619,7 @@ h3 {
     font-size: 14px;
   }
   fieldset {
-    width: 275px;
+    width: 272px;
     height: 170px;
     font-size: 10px;
   }
